@@ -856,38 +856,7 @@ function App() {
         </DialogContent>
       </Dialog>
       
-      <style jsx global>{`
-        .earthquake-marker {
-          animation: pulse-glow 2s ease-in-out infinite alternate;
-        }
-        
-        .earthquake-marker-selected {
-          animation: pulse-selected 1s ease-in-out infinite alternate;
-        }
-        
-        @keyframes pulse-glow {
-          from { opacity: 0.6; }
-          to { opacity: 1; }
-        }
-        
-        @keyframes pulse-selected {
-          from { opacity: 0.8; }
-          to { opacity: 1; }
-        }
-        
-        .leaflet-popup-content-wrapper {
-          background: transparent !important;
-          box-shadow: none !important;
-        }
-        
-        .leaflet-popup-content {
-          margin: 0 !important;
-        }
-        
-        .leaflet-popup-tip {
-          background: ${theme === 'dark' ? 'rgb(17 24 39)' : 'rgb(255 255 255)'} !important;
-        }
-      `}</style>
+       {/* Global styles moved to index.css for compatibility with Vite/Vercel */}
     </div>
   )
 }
