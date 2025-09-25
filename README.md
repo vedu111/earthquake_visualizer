@@ -1,6 +1,7 @@
 # Earthquake Visualizer
 
 Interactive map to explore recent earthquakes from the USGS GeoJSON feeds.
+<img width="1902" height="905" alt="image" src="https://github.com/user-attachments/assets/d021646e-e8c9-45b8-8100-b408e310a6dd" />
 
 ## Tech Stack
 
